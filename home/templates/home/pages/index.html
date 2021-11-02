@@ -1,0 +1,93 @@
+{% extends 'home/layouts/_base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <main class="page landing-page">
+        <section id="back" class="clean-block clean-hero" style="color: rgba(78,109,160,0);background-image: url(static/home/img/plage.jpg);min-height: 400px;">
+            <div class="text">
+                <h5><strong><em>Visa Congo Kinshasa RDC</em></strong></h5>
+                <p><strong><em>Soyez le bienvenu en République Démocratique du congo</em></strong></p><button class="btn btn-outline-light btn-lg" type="button">Learn More</button></div>
+        </section>
+        <section class="clean-block clean-info dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info"><em>Information</em></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6"><img class="img-thumbnail" src="{% static 'home/img/avion3.png' %}"></div>
+                    <div class="col-md-6">
+                        <h3><em>Congo Airyways</em></h3>
+                        <div class="getting-started-info">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div><button class="btn btn-outline-primary btn-lg" type="button">Join Now</button></div>
+                </div>
+            </div>
+        </section>
+        <section class="clean-block features">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">Foire aux Questions&nbsp;</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-5 feature-box"><i class="icon-star icon"></i>
+                        <h4><strong>Qu’est-ce que l’e-visa ?</strong><br></h4>
+                        <p>C’est un visa sollicité et octroyé électroniquement<br></p>
+                    </div>
+                    <div class="col-md-5 feature-box"><i class="icon-pencil icon"></i>
+                        <h4><strong>Quelle est la durée de la validité d’un e-visa ?</strong><br></h4>
+                        <p>Un e-visa a une validité de trois mois à compter de sa date d’émission mais avec<br>une seule entrée.<br></p>
+                    </div>
+                    <div class="col-md-5 feature-box"><i class="icon-screen-smartphone icon"></i>
+                        <h4><strong>Qui peut faire une demande de visa électronique en RDC?</strong><br></h4>
+                        <p>A.tout étranger désireux de venir en RDC pour raisons d’affaires ;<br>C.tout étranger désireux de venir en RDC pour la visite et tourisme.<br></p>
+                    </div>
+                    <div class="col-md-5 feature-box"><i class="icon-refresh icon"></i>
+                        <h4><strong>Quelles</strong><br><strong>sont les types de e-visa ?</strong><br></h4>
+                        <p>Visa volant spécifique, visa volant ordinaire et visa volant pour visite de famille.<br></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clean-block about-us">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info"><em>République Démocratique du Congo</em></h2>
+                    <p>Le 3 grande villes de la République Démocratique du Congo ci-dessous: Ville de Kishansa qui se présente comme captital de la RDC-Congo. et la seconde ville c'est la ville de Lubumbashi et la troisième ville qui est Goma.&nbsp;</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="{% static 'home/img/kin6.jpg' %}">
+                            <div class="card-body info">
+                                <h4 class="card-title"><em>Ville de Kinshasa</em></h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="{% static 'home/img/Lushi.jpg' %}">
+                            <div class="card-body info">
+                                <h4 class="card-title"><em>Ville de Lubumbashi</em></h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="{% static 'home/img/Gom.jpg' %}">
+                            <div class="card-body info">
+                                <h4 class="card-title"><em>Ville de Goma</em></h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+{% endblock content %}
+    
